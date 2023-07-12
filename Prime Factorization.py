@@ -12,7 +12,7 @@ def Prime_num(n):
         else:
             break
 
-    for i in range(3,int(math.sqrt(n)),2):
+    for i in range(3,int(math.sqrt(n))+1,2):
         while (n % i == 0):
             prime_num.append(i)
             n = n/i
